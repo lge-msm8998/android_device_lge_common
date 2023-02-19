@@ -1,1 +1,0 @@
-allow init sysfs_dac:{lnk_file file} { rw_file_perms setattr };

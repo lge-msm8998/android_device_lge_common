@@ -1,3 +1,0 @@
-attribute hal_dac_control;
-attribute hal_dac_control_client;
-attribute hal_dac_control_server;

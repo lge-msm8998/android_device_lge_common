@@ -1,6 +1,0 @@
-binder_call(hal_dac_control_client, hal_dac_control_server)
-binder_call(hal_dac_control_server, hal_dac_control_client)
-
-add_hwservice(hal_dac_control_server, hal_dac_control_hwservice)
-
-allow hal_dac_control_client hal_dac_control_hwservice:hwservice_manager find;
